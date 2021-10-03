@@ -4,7 +4,8 @@
 
 <script>
     export default {
-        props: {
+        name: "publishdemo",
+        props: {            
             msg: {
                 type: String,
                 default: "publishdemo"
