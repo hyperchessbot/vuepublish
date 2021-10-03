@@ -6,7 +6,7 @@ import css from 'rollup-plugin-css-only'
 export default {
     input: './src/index.js', // Path relative to package.json
     output: {
-        file: 'dist/publishdemo.js',
+        file: 'publishdemo.js',
         exports: 'named',
     },
     plugins: [        

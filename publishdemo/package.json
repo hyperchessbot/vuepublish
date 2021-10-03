@@ -1,6 +1,6 @@
 {
   "name": "@publishvue/publishdemo",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "private": false,
   "main": "./dist/publishdemo.js",
   "files": [
@@ -11,7 +11,7 @@
   "author": "hyperchessbot",
   "license": "MIT",
   "scripts": {
-    "rollup": "rollup -c",
+    "rollup": "rm -r dist ; rollup -c && mkdir dist && mv publishdemo.js dist && mv publishdemo.css dist",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
