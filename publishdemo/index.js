@@ -1,5 +1,5 @@
 // Import vue component
-import publishdemo from './components/HelloWorld.vue';
+import publishdemo from './publishdemo.vue';
 
 // Declare install function executed by Vue.use()
 export function install(Vue) {

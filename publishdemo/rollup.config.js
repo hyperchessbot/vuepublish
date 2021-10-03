@@ -4,7 +4,7 @@ import buble from '@rollup/plugin-buble'; // Transpile/polyfill with reasonable 
 import css from 'rollup-plugin-css-only'
 
 export default {
-    input: './src/index.js', // Path relative to package.json
+    input: './index.js', // Path relative to package.json
     output: {
         file: 'publishdemo.js',
         exports: 'named',
