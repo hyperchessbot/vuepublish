@@ -7,12 +7,12 @@ export default {
         name: 'Publishdemo',
         exports: 'named',
     },
-    plugins: [
-        commonjs(),
+    plugins: [        
         vue({
             css: true, // Dynamically inject css as a <style> tag
             compileTemplate: true, // Explicitly convert template to render function
-        }),
-        buble(), // Transpile to ES5
+        }),        
+        commonjs(),
+        buble(), // Transpile to ES5        
     ],
 };
